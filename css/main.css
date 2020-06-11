@@ -1,0 +1,133 @@
+*{
+  margin: 5%;
+  /* padding: 2% 2%; */
+  box-sizing: border-box;
+
+}
+body {
+  background-color: white;
+}
+header {
+  /* background-image: url('/Users/Saad/Pictures/Saadnotsad/DSC_9076-Pano copy.jpg');
+  background-size: cover; */
+
+  background-color: white;
+}
+.logo > h1{
+  color: #3A3E3B;
+}
+.toolbar{
+  color: black;
+  text-align: left;
+  font-family: 'Josefin Slab', serif;
+  align-items:center;
+}
+.logo{
+  display: inline-block;
+}
+.tool{
+  /* margin-left: 10px; */
+  display: inline-block;
+}
+.tool:hover{
+  cursor: pointer;
+  color: white;
+}
+.profilePic{
+  top: 1;
+  width: 40px;
+  height: 40px;
+}
+.gallery{
+  width: 100%;
+  align-items: center;
+  /* padding: 5%; */
+  height: auto;
+  float: left;
+  align: center;
+  text-align: center;
+}
+.landscapeDiv{
+  padding: 0;
+}
+.landscape{
+  width: 100%;
+  height: auto;
+}
+.portraitDiv{
+  /* padding: 2% 15%; */
+  width: 100%;
+  height: 450px;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+}
+.portrait{
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+}
+.score-header {
+  margin: 20px auto;
+  border: 3px solid #44e9ff;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: black;
+  font-size: 46px;
+  position: relative;
+}
+.badge{
+  background-color: teal;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: sans-serif;
+}
+#user-label {
+  position: absolute;
+  top: 19px;
+  left: -25px;
+}
+#computer-label {
+  position: absolute;
+  top: 19px;
+  right: -45px;
+}
+.break{
+  color: yellow;
+  margin: 10 10;
+}
+.result {
+  font-size: 40px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.choices {
+  margin: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+.choice {
+  display: inline-block;
+  transition: all 0.3 ease;
+}
+.choice:hover {
+  cursor: pointer;
+  background: #412cd5;
+}
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
